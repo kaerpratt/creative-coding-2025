@@ -1,0 +1,140 @@
+#body{
+    margin: 10%; margin-right: 15%;
+    background-image: url(images2/lake_57.png);
+    background-size: cover;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+}
+
+#writing{
+    background-color: rgba(185, 181, 181, 0.477);
+    padding: 3%;
+    padding-top: 1%;
+    width: 65%;
+}
+
+#media{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: rgb(11, 6, 61);
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    color: rgb(11, 6, 61);
+}
+
+.assignment{
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-style: italic;
+    color: rgb(4, 71, 71);
+}
+
+.text-yellow{
+    color: rgb(152, 113, 14);
+}
+
+.text-blue{
+    color: rgb(4, 71, 71);
+}
+
+
+video{
+    width: 210px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pics{
+    margin-top: 3%;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#shore{
+    background-image: url(images2/shore.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 300px;
+}
+
+#shore:hover{
+    background-image: url(images2/shore2.jpg);
+}
+
+#rocks{
+    background-image: url(images2/shells.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 300px;
+}
+
+#rocks:hover{
+    background-image: url(images2/rocks.jpg);
+}
+
+#kids{
+    background-image: url(images2/kayak.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 210px;
+    height: 300px;
+}
+
+#kids:hover{
+    background-image: url(images2/kids.jpg);
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #writing{
+        width: 50%;
+    }
+    #media{
+        width: 50%;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    #flex{
+        display: flex;
+        flex-direction: column;
+    }
+    #writing{
+        width: 100%;
+    }
+    #media{
+        margin-top: 3%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 600px;
+        align-items: flex-start;
+    }
+    img{
+        width: 200px;
+    }
+    video{
+        width: 200px;
+    }
+  }
+
