@@ -63,6 +63,9 @@ function draw (){
     text("A forest born of human dreams,", windowWidth/2, 350);
     text("Blending numbers, earth, and greens.", windowWidth/2, 370);
 
+    text("Color = Sex | Height = Height | Weight = Thickness", windowWidth/2, 420);
+    text("Leaves/Flowers = Literacy | Fallen Leaves = Peace Index", windowWidth/2, 440);
+
 
 
     button1.draw();
